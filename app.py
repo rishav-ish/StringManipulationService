@@ -11,7 +11,6 @@ from bson.objectid import ObjectId
 load_dotenv()
 
 app = Flask(__name__)
-
 app.config['MONGO_URI'] = os.environ.get('MONGO_URI')
 
 client = PyMongo(app)
@@ -199,7 +198,7 @@ def sort(id):
 
         update_query = {
             '$push': {
-                'operations':{'name':new_string}
+                'operations':{'sort':new_string}
             }
         }
 
