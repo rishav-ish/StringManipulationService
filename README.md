@@ -10,4 +10,4 @@ Basic REST Flask API that add string to database and can also perform some basic
 
 
 
-App is deployed https://stringmainpulationapi.com/
+App is deployed https://stringmainpulationapi.herokuapp.com/
